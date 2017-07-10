@@ -93,14 +93,4 @@ public class Tvrtka {
 		this.alarmi = alarmi;
 	}
 
-
-	
-
-
-	
-
-
-	
-	
-	
 }

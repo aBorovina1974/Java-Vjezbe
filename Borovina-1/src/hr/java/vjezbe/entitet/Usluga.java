@@ -96,8 +96,4 @@ public class Usluga {
 		this.uslugaNaplacena = uslugaNaplaæena;
 	}
 	
-	
-	
-	
-
 }

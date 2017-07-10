@@ -118,10 +118,10 @@ public class Glavna {
 		System.out.println("OIB tvrtke:\n" + tvrtka.getOibTvrtke());
 		System.out.println("\n");
 		
-		for(int i = 0; i < 2; i++)
+		
+		Klijent[] klijenti = tvrtka.getKlijenti();
+		for(int i = 0; i < klijenti.length; i++)
 		{
-			Klijent[] klijenti = tvrtka.getKlijenti();
-			
 			System.out.println("OIB klijenta:\n" + klijenti[i].getOib());
 			System.out.println("Prezime klijenta:\n" + klijenti[i].getPrezime());
 			System.out.println("Ime klijenta:\n" + klijenti[i].getIme());
@@ -132,18 +132,15 @@ public class Glavna {
 		}
 		
 	
-		
-		for(int i = 0; i < 2; i++)
+		Zaposlenik[] zaposlenici = tvrtka.getZaposlenici();
+		for(int i = 0; i < zaposlenici.length; i++)
 		{
-			Zaposlenik[] zaposlenici = tvrtka.getZaposlenici();
-			
-			System.out.println("Korisnièko ime zaposlenika:\n" + zaposlenici[i].getKorisnickoIme());
+		    System.out.println("Korisnièko ime zaposlenika:\n" + zaposlenici[i].getKorisnickoIme());
 			System.out.println("Ime zaposlenika:\n" + zaposlenici[i].getIme());
 			System.out.println("Prezme zaposlenika:\n" + zaposlenici[i].getPrezime());
 	        System.out.println("Šifra zaposlenika:\n" + zaposlenici[i].getSifraZaposlenika());
 	        System.out.println("\n");
-	        
-		}
+	    }
 		
 
 

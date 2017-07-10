@@ -60,7 +60,4 @@ public class Komunikacija {
 		this.vrijemeKomunikacije = vrijemeKomunikacije;
 	}
 	
-	
-	
-
 }

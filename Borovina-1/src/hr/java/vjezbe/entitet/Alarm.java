@@ -58,8 +58,4 @@ public class Alarm {
 		this.statusAlarma = statusAlarma;
 	}
 	
-	
-	
-	
-
 }

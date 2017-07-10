@@ -69,7 +69,4 @@ public class Klijent {
 		this.datumRodjenja = datumRodjenja;
 	}
 	
-	
-	
-	
 }
