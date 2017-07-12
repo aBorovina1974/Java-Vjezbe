@@ -6,7 +6,7 @@ public class Tvrtka {
 	public static final int BROJ_KLIJENATA = 2;
 	public static final int BROJ_ZAPOSLENIKA = 2;
 	public static final int BROJ_KOMUNIKACIJA = 2;
-	public static final int BROJ_USLUGA = 2;
+	public static final int BROJ_USLUGA = 3;
 	public static final int BROJ_ALARMA = 2;
 	
 	private String nazivTvrtke;

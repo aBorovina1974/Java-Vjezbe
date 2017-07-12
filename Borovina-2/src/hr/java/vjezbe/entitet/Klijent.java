@@ -2,20 +2,17 @@ package hr.java.vjezbe.entitet;
 
 import java.time.LocalDate;
 
-public class Klijent {
+public class Klijent extends Osoba {
 
 	private String oib;
-	private String prezime;
-	private String ime;
-	private String telefon;
+    private String telefon;
 	private String email;
 	private LocalDate datumRodjenja;
 	
 	public Klijent(String oib, String prezime, String ime, String telefon, String email,
 			       LocalDate datumRodjenja) {
+		super(ime, prezime);
 		this.oib = oib;
-		this.prezime = prezime;
-		this.ime = ime;
 		this.telefon = telefon;
 		this.email = email;
 		this.datumRodjenja = datumRodjenja;
@@ -27,22 +24,6 @@ public class Klijent {
 
 	public void setOib(String oib) {
 		this.oib = oib;
-	}
-
-	public String getPrezime() {
-		return prezime;
-	}
-
-	public void setPrezime(String prezime) {
-		this.prezime = prezime;
-	}
-
-	public String getIme() {
-		return ime;
-	}
-
-	public void setIme(String ime) {
-		this.ime = ime;
 	}
 
 	public String getTelefon() {
