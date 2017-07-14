@@ -4,5 +4,5 @@ import java.math.BigDecimal;
 
 public interface Robna {
 
-	public abstract BigDecimal prodaja(int brArtikala);
+	 BigDecimal prodaja(int brArtikala);
 }
