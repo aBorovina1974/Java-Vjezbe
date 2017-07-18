@@ -1,6 +1,5 @@
 package hr.java.vjezbe.glavna;
 
-import java.lang.Character.UnicodeScript;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -10,7 +9,6 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import javax.swing.JEditorPane;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
