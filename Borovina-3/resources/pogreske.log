@@ -1,0 +1,84 @@
+2017-07-17 04:16:18,885 INFO [main] h.j.v.g.Glavna [Glavna.java:44] Zapoèet unos podataka
+2017-07-17 04:16:18,889 INFO [main] h.j.v.g.Glavna [Glavna.java:52] Zapoèet unos 1. KLIJENTA:
+2017-07-17 04:17:14,335 INFO [main] h.j.v.g.Glavna [Glavna.java:491] Unesen neispravan format datuma: 08.09,1999Text '08.09,1999' could not be parsed at index 5
+java.time.format.DateTimeParseException: Text '08.09,1999' could not be parsed at index 5
+	at java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.time.LocalDate.parse(Unknown Source)
+	at hr.java.vjezbe.glavna.Glavna.unesiDatum(Glavna.java:485)
+	at hr.java.vjezbe.glavna.Glavna.unesiPodatkeKlijenta(Glavna.java:182)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:54)
+2017-07-17 04:17:22,638 INFO [main] h.j.v.g.Glavna [Glavna.java:55] Unesen klijent Aniæ Ana
+2017-07-17 04:17:22,638 INFO [main] h.j.v.g.Glavna [Glavna.java:52] Zapoèet unos 2. KLIJENTA:
+2017-07-17 04:18:13,505 INFO [main] h.j.v.g.Glavna [Glavna.java:55] Unesen klijent Markiæ Marko
+2017-07-17 04:18:13,505 INFO [main] h.j.v.g.Glavna [Glavna.java:61] Zapoèet unos 1. ZAPOSLENIKA:
+2017-07-17 04:18:41,907 INFO [main] h.j.v.g.Glavna [Glavna.java:64] Unesen zaposlenik Aniæ Ana
+2017-07-17 04:18:41,907 INFO [main] h.j.v.g.Glavna [Glavna.java:61] Zapoèet unos 2. ZAPOSLENIKA:
+2017-07-17 04:19:04,463 INFO [main] h.j.v.g.Glavna [Glavna.java:64] Unesen zaposlenik Markiæ Marko
+2017-07-17 04:19:04,464 INFO [main] h.j.v.g.Glavna [Glavna.java:78] Zapoèet unos tvrtke
+2017-07-17 04:19:14,622 INFO [main] h.j.v.g.Glavna [Glavna.java:233] Unešen naziv tvrtke
+2017-07-17 04:19:20,311 INFO [main] h.j.v.g.Glavna [Glavna.java:237] Unešen OIB tvrtke
+2017-07-17 04:19:37,313 INFO [main] h.j.v.g.Glavna [Glavna.java:249] Unešen artikl 'Desktop aplikacija'
+2017-07-17 04:19:56,495 INFO [main] h.j.v.g.Glavna [Glavna.java:249] Unešen artikl 'Web aplikacija'
+2017-07-17 04:20:11,624 INFO [main] h.j.v.g.Glavna [Glavna.java:249] Unešen artikl 'Mobilna aplikacija'
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:80] Unešena tvrtka 'Softveri d.d.'
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:84] Postavljeni klijenti i zaposlenici za tvrtku
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:87] Ispis klijenata i zaposlenika tvrtke
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:92] Ispis osobe Aniæ Ana
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:95] Osba je klijent
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:92] Ispis osobe Iviæ Ivo
+2017-07-17 04:20:11,625 INFO [main] h.j.v.g.Glavna [Glavna.java:102] Osba je zaposlenik
+2017-07-17 04:20:11,626 INFO [main] h.j.v.g.Glavna [Glavna.java:92] Ispis osobe Markiæ Marko
+2017-07-17 04:20:11,626 INFO [main] h.j.v.g.Glavna [Glavna.java:95] Osba je klijent
+2017-07-17 04:20:11,626 INFO [main] h.j.v.g.Glavna [Glavna.java:92] Ispis osobe Periæ Pero
+2017-07-17 04:20:11,626 INFO [main] h.j.v.g.Glavna [Glavna.java:102] Osba je zaposlenik
+2017-07-17 04:20:17,519 INFO [main] h.j.v.g.Glavna [Glavna.java:451] null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at hr.java.vjezbe.glavna.Glavna.unesiCijeliBroj(Glavna.java:425)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:111)
+2017-07-17 04:20:21,860 INFO [main] h.j.v.g.Glavna [Glavna.java:274] Poèetak unošenja 1usluga
+2017-07-17 04:20:28,576 INFO [main] h.j.v.g.Glavna [Glavna.java:430] Unesena vrijednost izvan dozvoljenog raspona
+2017-07-17 04:20:32,949 INFO [main] h.j.v.g.Glavna [Glavna.java:293] Odabran je klijent Aniæ Ana
+2017-07-17 04:20:48,910 INFO [main] h.j.v.g.Glavna [Glavna.java:297] Odabrana vrsta usluge: Instalacija i održavanje softvera
+2017-07-17 04:21:07,997 INFO [main] h.j.v.g.Glavna [Glavna.java:301] Odabran opis usluge: Softver s garancijom od 2 godine
+2017-07-17 04:21:14,774 INFO [main] h.j.v.g.Glavna [Glavna.java:318] Odabrana cijena usluge 1000 KN
+2017-07-17 04:21:33,707 INFO [main] h.j.v.g.Glavna [Glavna.java:430] Unesena vrijednost izvan dozvoljenog raspona
+2017-07-17 04:21:36,941 INFO [main] h.j.v.g.Glavna [Glavna.java:334] Odabran je artikl: Desktop aplikacija
+2017-07-17 04:21:36,948 INFO [main] h.j.v.g.Glavna [Glavna.java:340] Kreiran alarm za uslugu
+2017-07-17 04:21:42,591 INFO [main] h.j.v.g.Glavna [Glavna.java:343] Unesen broj artikala za prodaju: 1
+2017-07-17 04:21:42,591 INFO [main] h.j.v.g.Glavna [Glavna.java:346] Ukupna cijena svih artikala: 1000 KN
+2017-07-17 04:21:42,592 INFO [main] h.j.v.g.Glavna [Glavna.java:350] POstavljeni alarmi Zaposlenik cijelu tvrtku
+2017-07-17 04:21:52,592 INFO [main] h.j.v.g.Glavna [Glavna.java:136] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Softver s garancijom od 2 godine
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:384)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:132)
+2017-07-17 04:22:02,593 INFO [main] h.j.v.g.Glavna [Glavna.java:136] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Softver s garancijom od 2 godine
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:384)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:132)
+2017-07-17 04:22:12,595 INFO [main] h.j.v.g.Glavna [Glavna.java:136] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Softver s garancijom od 2 godine
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:384)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:132)
+2017-07-17 04:22:22,597 INFO [main] h.j.v.g.Glavna [Glavna.java:136] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Softver s garancijom od 2 godine
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:384)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:132)
+2017-07-17 04:22:32,598 INFO [main] h.j.v.g.Glavna [Glavna.java:136] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Softver s garancijom od 2 godine
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:384)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:132)
+2017-07-17 04:22:42,600 INFO [main] h.j.v.g.Glavna [Glavna.java:141] Alarm je istekao!Povratna informacija za obavljenu uslugu:
+ Softver s garancijom od 2 godine
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Alarm je istekao!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:393)
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:132)
