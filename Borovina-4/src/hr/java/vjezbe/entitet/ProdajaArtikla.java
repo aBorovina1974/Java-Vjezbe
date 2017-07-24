@@ -2,6 +2,9 @@ package hr.java.vjezbe.entitet;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.function.Function;
+
+import javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction;
 
 /**
  * Predstavlja entitet usluge prodaja artikla definiran artiklom
@@ -54,10 +57,13 @@ public class ProdajaArtikla extends Usluga implements Robna {
  * @param broj prodanih artikala
  * @return ukupna cijena usluge
  */
+
 	public BigDecimal prodaja(int brojArtikala)
 	{
 		this.setUslugaObavljena(true);
 		this.setUslugaNaplacena(true);
 		return (this.getCijenaUsluge().multiply(new BigDecimal(brojArtikala)));
 	}
+	
+	
 }

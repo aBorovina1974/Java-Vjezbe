@@ -45,8 +45,8 @@ public class Glavna {
 
 	public static void main(String[] args) {
 		
-		List<Klijent> klijenti = new ArrayList<Klijent>();
-		List<Zaposlenik> zaposlenici = new ArrayList<Zaposlenik>();
+		List<Klijent> klijenti = new ArrayList<>();
+		List<Zaposlenik> zaposlenici = new ArrayList<>();
 		Osoba[] osobe = new Osoba[BROJ_OSOBA];
 		Scanner s = new Scanner(System.in);
 		System.out.println("UNOS PODATAKA:");
@@ -119,7 +119,7 @@ public class Glavna {
 		aktivniAlarmi = brojUsluga;
         unesiUsluge(tvrtka, brojUsluga, s);
 		
-		List<Komunikacija> komunikacije = new ArrayList<Komunikacija>();
+		List<Komunikacija> komunikacije = new ArrayList<>();
 		List<Alarm> alarmi = tvrtka.getAlarmi();
         
         while(true)
@@ -130,6 +130,7 @@ public class Glavna {
 			} 
         	catch (InterruptedException e1) 
         	{
+        		LOGGER.info(e1.getMessage());
 				e1.printStackTrace();
 			}
         	for(int i = 0, brojAlarma = brojUsluga; i < brojAlarma; i++)
@@ -284,7 +285,7 @@ public class Glavna {
 		String nazivTvrtke, oibTvrtke, nazivArtikla;
 		KategorijaArtikla kategorija;
 		int artikalBr;
-		List<Artikl> artikli = new ArrayList<Artikl>();
+		List<Artikl> artikli = new ArrayList<>();
 		
 		System.out.println("Unesite naziv tvrtke:");
 		nazivTvrtke = scanner.nextLine();
@@ -342,8 +343,8 @@ public class Glavna {
 		VrstaUsluge vrstaUsluge = null;
 		BigDecimal cijenausluge = new BigDecimal(0), ukupnaCijena = new BigDecimal(0);
         List<Klijent> klijenti = tvrtka.getKlijenti();
-        List<ProdajaArtikla> usluge = new ArrayList<ProdajaArtikla>(); 
-        List<Alarm> alarmi = new ArrayList<Alarm>();
+        List<ProdajaArtikla> usluge = new ArrayList<>(); 
+        List<Alarm> alarmi = new ArrayList<>();
         LOGGER.info("Poèetak unošenja " + brUsluga + "usluga");
         for(int i = 0; i < brUsluga; i++)
         {
@@ -430,11 +431,12 @@ public class Glavna {
     		LOGGER.info("Unesen broj artikala za prodaju: " + brojArtikala);
     		
     		ukupnaCijena = ukupnaCijena.add(usluga.prodaja(brojArtikala));
+    		
     		LOGGER.info("Ukupna cijena svih artikala: " + ukupnaCijena + " KN");
         }
         tvrtka.setUsluge(usluge);
         tvrtka.setAlarmi(alarmi);
-        LOGGER.info("POstavljeni alarmi Zaposlenik cijelu tvrtku");
+        LOGGER.info("Postavljeni alarmi za cijelu tvrtku");
         System.out.println("Ukupna cijena prodanih artikala: " + ukupnaCijena);
         
 	}
