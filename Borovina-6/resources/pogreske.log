@@ -1,0 +1,54 @@
+2017-07-27 22:31:00,362 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:166] Zapoèelo uèitavanje klijenata
+2017-07-27 22:31:00,436 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:220] Zapoèelo uèitavanje zaposlenika
+2017-07-27 22:31:00,437 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:271] Zapoèelo uèitavanje maloprodajne tvrtke
+2017-07-27 22:31:00,437 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:314] Zapoèelo uèitavanje artikala
+2017-07-27 22:31:00,438 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:50] Postavljeni klijenti i zaposlenici za tvrtku
+2017-07-27 22:31:03,425 INFO [main] h.j.v.g.Glavna [Glavna.java:355] Poèetak unošenja 2 usluga
+2017-07-27 22:31:05,324 INFO [main] h.j.v.g.Glavna [Glavna.java:374] Odabran je klijent Markiæ Marko
+2017-07-27 22:31:08,421 INFO [main] h.j.v.g.Glavna [Glavna.java:391] Odabrana vrsta usluge: PRODAJNA
+2017-07-27 22:31:20,841 INFO [main] h.j.v.g.Glavna [Glavna.java:395] Odabran opis usluge: Prodaja web aplikcije
+2017-07-27 22:31:23,810 INFO [main] h.j.v.g.Glavna [Glavna.java:412] Odabrana cijena usluge 1000 KN
+2017-07-27 22:31:34,710 INFO [main] h.j.v.g.Glavna [Glavna.java:430] Odabran je artikl: Web aplikacija
+2017-07-27 22:31:34,717 INFO [main] h.j.v.g.Glavna [Glavna.java:436] Kreiran alarm za uslugu
+2017-07-27 22:31:36,746 INFO [main] h.j.v.g.Glavna [Glavna.java:439] Unesen broj artikala za prodaju: 1
+2017-07-27 22:31:36,749 INFO [main] h.j.v.g.Glavna [Glavna.java:446] Ukupna cijena svih artikala: 1000 KN
+2017-07-27 22:31:40,827 INFO [main] h.j.v.g.Glavna [Glavna.java:374] Odabran je klijent Aniæ Ana
+2017-07-27 22:31:43,618 INFO [main] h.j.v.g.Glavna [Glavna.java:391] Odabrana vrsta usluge: PRAVNA
+2017-07-27 22:32:25,386 INFO [main] h.j.v.g.Glavna [Glavna.java:395] Odabran opis usluge: Omoguæavanje iskorištavanja dijela programskog koda
+2017-07-27 22:32:29,635 INFO [main] h.j.v.g.Glavna [Glavna.java:412] Odabrana cijena usluge 2000 KN
+2017-07-27 22:33:03,262 INFO [main] h.j.v.g.Glavna [Glavna.java:430] Odabran je artikl: Mobilna aplikacija
+2017-07-27 22:33:03,262 INFO [main] h.j.v.g.Glavna [Glavna.java:436] Kreiran alarm za uslugu
+2017-07-27 22:33:05,778 INFO [main] h.j.v.g.Glavna [Glavna.java:439] Unesen broj artikala za prodaju: 1
+2017-07-27 22:33:05,778 INFO [main] h.j.v.g.Glavna [Glavna.java:446] Ukupna cijena svih artikala: 3000 KN
+2017-07-27 22:33:05,778 INFO [main] h.j.v.g.Glavna [Glavna.java:453] Postavljeni alarmi za cijelu tvrtku
+2017-07-27 22:33:15,784 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:117] Alarm je istekao!Povratna informacija za obavljenu uslugu:
+ Prodaja web aplikcije
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Alarm je istekao!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:496)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:76)
+2017-07-27 22:33:15,785 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:80] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Omoguæavanje iskorištavanja dijela programskog koda
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:487)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:76)
+2017-07-27 22:33:32,732 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:80] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Omoguæavanje iskorištavanja dijela programskog koda
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:487)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:76)
+2017-07-27 22:33:55,164 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:80] Alarm pred istekom!Povratna informacija za obavljenu uslugu:
+ Omoguæavanje iskorištavanja dijela programskog koda
+hr.java.vjezbe.iznimke.AlarmPredIstekomException: Alarm pred istekom!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:487)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:76)
+2017-07-27 22:34:16,080 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:117] Alarm je istekao!Povratna informacija za obavljenu uslugu:
+ Omoguæavanje iskorištavanja dijela programskog koda
+hr.java.vjezbe.iznimke.AlarmIstekaoException: Alarm je istekao!
+	at hr.java.vjezbe.glavna.Glavna.provjeriAlarm(Glavna.java:496)
+	at hr.java.vjezbe.glavna.GlavnaDatoteke.main(GlavnaDatoteke.java:76)
+2017-07-27 22:34:16,087 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:388] Zapoèeta serijalizacija objekata klase hr.java.vjezbe.entitet.Komunikacija
+2017-07-27 22:34:16,137 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:412] Završena serijalizacija objekata klase hr.java.vjezbe.entitet.Komunikacija
+2017-07-27 22:34:16,137 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:388] Zapoèeta serijalizacija objekata klase hr.java.vjezbe.entitet.ProdajaArtikla
+2017-07-27 22:34:16,148 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:412] Završena serijalizacija objekata klase hr.java.vjezbe.entitet.ProdajaArtikla
+2017-07-27 22:34:16,148 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:388] Zapoèeta serijalizacija objekata klase hr.java.vjezbe.entitet.Alarm
+2017-07-27 22:34:16,154 INFO [main] h.j.v.g.GlavnaDatoteke [GlavnaDatoteke.java:412] Završena serijalizacija objekata klase hr.java.vjezbe.entitet.Alarm
