@@ -1,0 +1,12 @@
+Zaposlenik1
+Pero
+Periæ
+12345
+Zaposlenik2
+Ivo
+Iviæ
+54321
+kbarisic
+Kristijan
+Barišiæ
+kb853
