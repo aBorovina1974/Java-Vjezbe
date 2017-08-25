@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.vjezbe.javafx.AlarmiController">
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="350.0" prefWidth="600.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Pretraga alarma">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <FlowPane alignment="TOP_CENTER" hgap="10.0">
+               <children>
+                  <Label prefHeight="17.0" text="Klijent">
+                     <FlowPane.margin>
+                        <Insets />
+                     </FlowPane.margin></Label>
+                  <TextField fx:id="alarmiFilterTextField">
+                     <FlowPane.margin>
+                        <Insets />
+                     </FlowPane.margin></TextField>
+                  <Button mnemonicParsing="false" onAction="#prikaziAlarme" text="Pretraži" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </FlowPane>
+            <TableView fx:id="alarmiTableView" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="klijentColumn" prefWidth="175.0" text="Klijent" />
+                <TableColumn fx:id="opisColumn" prefWidth="275.0" text="Opis" />
+                  <TableColumn fx:id="vrijemeColumn" prefWidth="150.0" text="Vrijeme isteka" />
+              </columns>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TableView>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin></VBox>
+   </center>
+</BorderPane>

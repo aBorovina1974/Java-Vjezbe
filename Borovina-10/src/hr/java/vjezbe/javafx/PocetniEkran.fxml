@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.vjezbe.javafx.PocetniEkranController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Klijenti">
+            <items>
+              <MenuItem onAction="#postaviEkranKlijenata" text="Dohvat" />
+                  <MenuItem mnemonicParsing="false" onAction="#postaviEkranZaNovogKlijenta" text="Novi" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Zaposlenici">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#postaviEkranZaposlenika" text="Dohvat" />
+                  <MenuItem mnemonicParsing="false" onAction="#postaviEkranZaNovogZaposlenika" text="Novi" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Artikli">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#postaviEkranArtikala" text="Dohvat" />
+                  <MenuItem mnemonicParsing="false" onAction="#postaviEkranZaNoviArtikal" text="Novi" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Alarmi">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#postaviEkranAlarma" text="Dohvat" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Komunikacije">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#postaviEkranKomunikacija" text="Dohvat" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <Label fx:id="imeTvrtke" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+   </center>
+</BorderPane>
