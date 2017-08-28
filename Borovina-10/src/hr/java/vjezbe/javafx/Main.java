@@ -73,7 +73,6 @@ public class Main extends Application {
 		{
 			BorderPane klijentiPane = FXMLLoader.load(Main.class.getResource("Klijenti.fxml"));
 			Main.setCenterPane(klijentiPane);
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{
@@ -92,7 +91,6 @@ public class Main extends Application {
 		{
 			BorderPane zaposleniciPane = FXMLLoader.load(Main.class.getResource("Zaposlenici.fxml"));
 			Main.setCenterPane(zaposleniciPane);
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{
@@ -111,7 +109,6 @@ public class Main extends Application {
 		{
 			BorderPane artikliPane = FXMLLoader.load(Main.class.getResource("Artikli.fxml"));
 			Main.setCenterPane(artikliPane);
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{
@@ -154,7 +151,6 @@ public class Main extends Application {
 		{
 			BorderPane komunikacijePane = FXMLLoader.load(Main.class.getResource("Komunikacije.fxml"));
 			Main.setCenterPane(komunikacijePane);
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{
@@ -178,7 +174,6 @@ public class Main extends Application {
 			Stage stage = new Stage();
 			stage.setScene(scene);
 			stage.show();
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{
@@ -202,7 +197,6 @@ public class Main extends Application {
 			Stage stage = new Stage();
 			stage.setScene(scene);
 			stage.show();
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{
@@ -226,7 +220,6 @@ public class Main extends Application {
 			Stage stage = new Stage();
 			stage.setScene(scene);
 			stage.show();
-			AlarmiNit.setShow(false);
 		} 
 		catch (IOException e) 
 		{

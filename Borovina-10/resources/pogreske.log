@@ -1,0 +1,53 @@
+2017-08-28 17:08:09,390 INFO [JavaFX Application Thread] h.j.v.j.PocetniEkranController [PocetniEkranController.java:39] Ucitana tvrtka
+2017-08-28 17:08:20,219 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 1. nit.
+2017-08-28 17:08:30,126 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 2. nit.
+2017-08-28 17:08:40,110 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 3. nit.
+2017-08-28 17:08:50,109 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 4. nit.
+2017-08-28 17:09:03,686 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 5. nit.
+2017-08-28 17:09:11,378 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 6. nit.
+2017-08-28 17:09:20,122 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 7. nit.
+2017-08-28 17:09:30,117 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 8. nit.
+2017-08-28 17:09:40,118 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 9. nit.
+2017-08-28 17:13:08,564 INFO [JavaFX Application Thread] h.j.v.j.PocetniEkranController [PocetniEkranController.java:39] Ucitana tvrtka
+2017-08-28 17:13:12,381 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 1. nit.
+2017-08-28 17:13:22,275 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 2. nit.
+2017-08-28 17:13:32,285 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 3. nit.
+2017-08-28 17:13:42,275 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 4. nit.
+2017-08-28 17:13:52,271 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 5. nit.
+2017-08-28 17:14:12,284 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 6. nit.
+2017-08-28 17:14:16,881 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 7. nit.
+2017-08-28 17:14:22,285 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 8. nit.
+2017-08-28 17:14:32,282 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 9. nit.
+2017-08-28 17:14:42,282 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 10. nit.
+2017-08-28 17:14:52,281 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 11. nit.
+2017-08-28 17:15:02,274 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 12. nit.
+2017-08-28 17:15:12,285 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 13. nit.
+2017-08-28 17:15:22,371 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 14. nit.
+2017-08-28 17:16:17,621 INFO [JavaFX Application Thread] h.j.v.j.PocetniEkranController [PocetniEkranController.java:39] Ucitana tvrtka
+2017-08-28 17:17:20,880 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 1. nit.
+2017-08-28 17:17:30,772 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 2. nit.
+2017-08-28 17:17:40,772 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 3. nit.
+2017-08-28 17:17:50,774 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 4. nit.
+2017-08-28 17:18:00,772 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 5. nit.
+2017-08-28 17:18:10,772 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 6. nit.
+2017-08-28 17:18:20,771 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 7. nit.
+2017-08-28 17:18:30,774 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 8. nit.
+2017-08-28 17:18:40,771 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 9. nit.
+2017-08-28 17:18:50,771 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 10. nit.
+2017-08-28 17:19:00,772 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 11. nit.
+2017-08-28 17:19:10,774 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 12. nit.
+2017-08-28 17:19:20,772 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 13. nit.
+2017-08-28 17:19:30,771 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 14. nit.
+2017-08-28 17:19:51,639 INFO [JavaFX Application Thread] h.j.v.j.PocetniEkranController [PocetniEkranController.java:39] Ucitana tvrtka
+2017-08-28 17:19:55,872 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 1. nit.
+2017-08-28 17:20:05,752 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 2. nit.
+2017-08-28 17:20:15,757 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 3. nit.
+2017-08-28 17:20:25,771 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 4. nit.
+2017-08-28 17:20:35,757 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 5. nit.
+2017-08-28 17:20:45,757 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 6. nit.
+2017-08-28 17:20:55,759 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 7. nit.
+2017-08-28 17:21:11,383 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 8. nit.
+2017-08-28 17:21:15,767 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 9. nit.
+2017-08-28 17:21:25,767 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 10. nit.
+2017-08-28 17:21:38,731 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 11. nit.
+2017-08-28 17:21:48,198 INFO [JavaFX Application Thread] h.j.v.n.AlarmiNit [AlarmiNit.java:83] Kreirana je 12. nit.

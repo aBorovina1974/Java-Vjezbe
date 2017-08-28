@@ -11,6 +11,7 @@ import hr.java.vjezbe.entitet.Klijent;
 import hr.java.vjezbe.entitet.Komunikacija;
 import hr.java.vjezbe.entitet.VrstaKomunikacije;
 import hr.java.vjezbe.entitet.Zaposlenik;
+import hr.java.vjezbe.niti.AlarmiNit;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -140,6 +141,7 @@ public class NovaKomunikacijaController {
 			stage.close();
 			Main.prikaziEkranKomunikacija();
 			KomunikacijeController.osvjeziKomunikacijeTableView(osvjezeneKomunikacije);
+			AlarmiNit.setShow(true);
 		}
 		else
 		{
